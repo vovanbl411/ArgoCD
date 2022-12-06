@@ -9,9 +9,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/bakavets/k8s-lessons.git
+    repoURL: https://github.com/vovanbl411/ArgoCD.git
     targetRevision: master
-    path: lesson-30/charts/demo
+    path: dev/kuber
 
     helm:
       # Extra parameters to set (same as setting through values.yaml, but these take precedence)
